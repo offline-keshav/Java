@@ -5,7 +5,7 @@ public class Code1 {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         System.out.println(input);
-        
+        sc.close();
     }
 }
 
