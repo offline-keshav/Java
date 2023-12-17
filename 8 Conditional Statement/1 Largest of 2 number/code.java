@@ -12,6 +12,7 @@ public class code {
         } else {
             System.out.print("2nd is greater than 1st");
         }
+        sc.close();
 
     }
 }

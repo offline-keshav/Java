@@ -10,5 +10,6 @@ public class code {
         } else {
             System.out.println("Number is an odd");
         }
+        sc.close();
     }
 }
