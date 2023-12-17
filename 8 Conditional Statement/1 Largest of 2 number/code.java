@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class code {
-    public static void main(String aeg[]){
+    public static void main(String arg[]){
         System.out.print("Enter 1st number: ");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
