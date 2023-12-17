@@ -17,6 +17,7 @@ public class code {
 
             }
         }
+        sc.close();
     }
     
 }
