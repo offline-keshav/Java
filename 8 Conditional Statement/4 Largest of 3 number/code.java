@@ -9,14 +9,16 @@ public class code {
         int secnum = sc.nextInt();
         System.out.println("Enter the 3rd number: ");
         int thirdnum = sc.nextInt();
+        int largest;
         if (firstnum>secnum && firstnum>thirdnum){
-            int largest = firstnum;
+            largest = firstnum;
         } else if (secnum>firstnum && secnum>thirdnum) {
-            int largest = secnum;
+            largest = secnum;
         }else {
-            int largest = thirdnum;
+            largest = thirdnum;
         }
         System.out.println(largest);
         sc.close();
         }
     }
+    
